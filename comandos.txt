@@ -1,0 +1,5 @@
+Instalação do Vite
+- npm create vite@latest .
+  - definir nome do projeto
+  - selecionar o framework, no caso Vanilla (JS puro)
+  - escolher JS ou TS
