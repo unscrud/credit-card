@@ -3,3 +3,6 @@ Instalação do Vite
   - definir nome do projeto
   - selecionar o framework, no caso Vanilla (JS puro)
   - escolher JS ou TS
+
+- npm install
+  - para baixar dependências e gerar o package-lock.json
