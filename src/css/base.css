@@ -44,3 +44,7 @@ body {
   display: flex;
   align-items: center;
 }
+
+#app header span {
+  color: gray;
+}
