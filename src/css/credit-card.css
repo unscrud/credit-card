@@ -22,6 +22,11 @@
   align-items: center;
 }
 
+.cc-info {
+  display: grid;
+  gap: 1.4rem;
+}
+
 .cc-number{
   font-size: 2.4rem;
   font-weight: bold;
