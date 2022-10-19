@@ -15,3 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-size: 1.6rem;
+  background: #121214;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
