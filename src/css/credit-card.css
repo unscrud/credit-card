@@ -21,3 +21,18 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.cc-number{
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+  letter-spacing: 0.04em;
+  color: #e8e8e8;
+  text-shadow: 0 0.12rem 0.32rem rgb(23 23 23 / 40%);
+}
+
+.cc,
+.cc-logo,
+.cc-number {
+  position: relative;
+}
