@@ -6,3 +6,6 @@ Instalação do Vite
 
 - npm install
   - para baixar dependências e gerar o package-lock.json
+
+- npm install imask
+  - biblioteca para máscaras nos inputs
