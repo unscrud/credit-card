@@ -15,8 +15,7 @@
 //   seguido de um dígito entre 3 e 7, --> [3-7]
 //   seguido de mais 2 digitos --> \d{0,2}
 // anteriores seguidos de 0 a 12 dígitos --> (anteriores)\d{0,12}
-// final => (^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,12}
-
+// final => (^5[1-5]d{0,2}|^22[2-9]d{0,1}|^2[3-7]d{0,2})d{0,12}
 5353535353535353
 5665656565656565 //--> não
 2323232323232323

@@ -55,7 +55,7 @@ const cardNumberPattern = {
     },
     {
       mask: '0000 0000 0000 0000',
-      regex: '/(^5[1-5]d{0,2}|^22[2-9]d|^2[3-7]d{0,2})d{0,12}/',
+      regex: /(^5[1-5]d{0,2}|^22[2-9]d{0,1}|^2[3-7]d{0,2})d{0,12}/,
       cardtype: 'mastercard'
     },
     {
@@ -96,4 +96,15 @@ securityCodeMasked.on('accept', () => {
 function updateSecurityCode(code) {
   const ccSecurity = document.querySelector('.cc-security .value')
   ccSecurity.innerText = code.length === 0 ? '123' : code
+}
+
+cardNumberMasked.on('accept', () => {
+  const cardType = cardNumberMasked.masked.currentMask.cardtype
+  setCardType(cardType)
+  updateCardNumber(cardNumberMasked.value)
+})
+
+function updateCardNumber(number) {
+  const ccNumber = document.querySelector('.cc-number')
+  ccNumber.innerText = number.length === 0 ? '1234 5678 9012 3456' : number
 }
